@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>PSV</title>
+<script> 
+function getDateDemo(){ 
+/* 
+//声明时间 
+var date = new Date(); 
+alert(date);
+alert(date.toLocaleString());
+alert(date.getFullYear());
+alert(date.getMonth() + 1);
+alert(date.getDate());
+alert(date.getDay());
+alert(date.getHours());
+alert(date.getMinutes());
+alert(date.getSeconds());
+alert(date.getMilliseconds());
+alert(date.getTime());
+*/ 
+var myDate = new Date(); 
+var year = myDate.getFullYear(); 
+var month = myDate.getMonth() + 1; 
+var date = myDate.getDate(); 
+var hours = myDate.getHours(); 
+var minutes = myDate.getMinutes(); 
+var seconds = myDate.getSeconds(); 
+if(month < 10 ){ 
+month = "0" + month; 
+} 
+if(date < 10 ){ 
+date = "0" + date; 
+} 
+var dateTime = year + "年" + month + "月" + date + "日" + hours + "时" + minutes + "分" + seconds + "秒"; 
+//document.write(dateTime);
+var divNode = document.getElementById("time"); 
+divNode.innerHTML = dateTime;  
+} 
+window.setInterval("getDateDemo()",1000);
+getDateDemo() 
+</script> 
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="all">
+  <div id="head">
+  <ul>
+	    <li><a href="https://pic.imgdb.cn/item/60c7333f844ef46bb2f36581.jpg"><img src="images/200102312011.jpg" height="45" width="150"></a></li>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="fuye/Untitled-1.html">资讯</a></li>
+        <li><a href="fuye/gamelie.html">游戏</a></li>
+        <li><a href="#end">破解</a></li>
+	   <li><a href="#content_h">设备产品</a></li>
+        <li><a href="fuye/about.html">联系</a></li>
+   </ul>
+</div>
+	<div id="nav">
+	<div id="images">
+ <img src="images/psv1.png">
+ <img src="images/psv2.jpg">
+ <img src="images/psv3.png">
+		
+</div>
+	</div>
+<div id="theme">
+	<div class="content">
+	<p>资讯中心</p><hr/>
+	<video  height="150" width="280" controls="controls"><source src="images/官方宣传片.mp4"></video>
+	<p>&nbsp;</p>
+	<h1><p>PlayStation Vita</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlayStation®VITA（简称PS Vita、Vita或PSV）是索尼于2011年1月27日公布的新一代掌机，开发代号为“NGP”，并在2011年E3游戏展上公布其发售具体信息，于2011年12月17号正式发售。</h1>
+		<h2>←</h2>
+		<h3>官方宣传片</h3>
+</div></div>
+	<div id="content_h"><p>设备产品</p>
+	<div class="box"><a href="https://m.tb.cn/h.4ElJ1vh?sm=89a1cb" target="_blank"><img src="images/card.jpg" height="100" width="100">                                
+	  <div class="box1"><a href="https://m.tb.cn/h.4wSRJ93?sm=7551ea" target="_blank"><img src="images/tv.jpg" height="100" width="100">
+	</div>
+	</div><a href="https://m.tb.cn/h.4ElJ1vh?sm=89a1cb" target="_blank"><b>PSV内存卡</b> <a href="https://m.tb.cn/h.4wSRJ93?sm=7551ea" target="_blank" ><b>PSVTV</b></div>
+	<div id="game"><p>游戏</p>
+	<div class="box2"><dt><a  href="fuye/game.html"><img src="images/game.jpg" height="117" width="200"></dt><dd><a href="fuye/game.html">数码宝贝故事:赛博侦探</dd>
+	  <div class="box3"><dt><a href="fuye/game2.html"><img src="images/game2.jpg" height="117" width="200"></dt><dd><a href="fuye/game2.html">噬神者2:狂怒解放</dd>
+      <div class="box4"><dt><a href="fuye/game3.html"><img src="images/game3.jpg"  height="117" width="200"><dd><a href="fuye/game3.html">女神异闻录P4G</dd></div></div></div>
+		</div>
+<div class="content_r">
+<div class="hd"><ul><b>新闻相关</b><hr/>
+	<li><a href="fuye/index-2.html">PSV系统版本更新3.73</li><b></b>
+	<li><a href="fuye/index-4.html">索尼宣布PSV正式停产</li>
+	<li><a href="fuye/index-3.html">PS3、PSP、PSV游戏商店将关闭，已购买的游戏仍可下载</li>
+	</ul></div>
+<div class="ht"><ul><b>游戏相关</b><hr/>
+	<li><a href="fuye/index-5.html">PSV黑商店PKGJ</li>
+	<li><a href="fuye/index-6.html">PSV链接PS4</li>
+	<li><a href="fuye/index-7.html">PSV自带PSP模拟器可游玩PSP游戏</li>
+	</ul></div>
+  </div>
+<div id="end"><p>破解</p><hr/>
+		<dt><a href="fuye/index-8.html"><img src="images/92127c956f6f01a040a5a79dc01e229.png" width="319" height="146"></dt><dd><a href="fuye/index-8.html">PSV高清化</dd>
+		 <div class="wr"> <dt><a href="fuye/index-9.html"><img  src="images/b1cdfa3726b722768167b155d4046f9.jpg" width="319" height="146"></dt><dd><a href="fuye/index-9.html">PSV工具箱</dd></div></div>
+</div>	
+<div class="foot">
+<br/>
+<p>友情链接:<a href="https://www.playstation.com/zh-hans-cn/" target="_blank">PSN</a><a href="https://www.baidu.com" target="_blank">baidu</a><a href="https://www.sogou.com/" target="_blank">sougou</a><a href="https://www.bilibili.com/" target="_blank">bilibili</a></p><div id="time"></div>
+ </div>
+		
+</body>
+</html>
